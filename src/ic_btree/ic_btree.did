@@ -1,0 +1,7 @@
+service : {
+  add : (text) -> (bool);
+  getAll : () -> (vec text) query;
+  getBTreeLength : () -> (nat64) query;
+  getStableStateSize : () -> (nat64) query;
+  greet : (text) -> (text) query;
+}

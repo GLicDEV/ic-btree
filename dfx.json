@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "dfx": "0.9.3",
+  "canisters": {
+    "ic_btree": {
+      "type": "rust",
+      "package": "ic_btree",
+      "candid": "src/ic_btree/ic_btree.did"
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": "",
+      "args": ""
+    }
+  },
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    }
+  }
+}
