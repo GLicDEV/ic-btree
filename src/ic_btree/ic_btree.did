@@ -1,5 +1,7 @@
 service : {
   add : (text) -> (bool);
+  allocateRBTSpace : (nat64, nat64) -> (nat64);
+  growRBTSpace : (nat64) -> (nat64);
   getAll : () -> (vec text) query;
   getBTreeLength : () -> (nat64) query;
   getStableStateSize : () -> (nat64) query;
